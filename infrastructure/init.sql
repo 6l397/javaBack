@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS MarketplaceDogMate;
+CREATE DATABASE IF NOT EXISTS MarketplaceOrders; 

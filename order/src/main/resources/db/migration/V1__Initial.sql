@@ -1,0 +1,8 @@
+CREATE TABLE t_orders
+(
+    id BIGINT(20) NOT NULL AUTO_INCREMENT,
+    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status VARCHAR(50),
+    total_price DECIMAL(19, 2),
+    PRIMARY KEY (id)
+);

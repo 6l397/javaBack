@@ -1,0 +1,8 @@
+{
+  "type": "record",
+  "name": "OrderPlacedEvent",
+  "namespace": "com.ordering.order.event",
+  "fields": [
+  { "name": "orderNumber", "type": "string" }
+  ]
+}
